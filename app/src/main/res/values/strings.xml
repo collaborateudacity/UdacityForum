@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UdacityForum</string>
+    <string name="login_screen">login screen</string>
 </resources>
