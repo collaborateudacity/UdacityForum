@@ -13,6 +13,7 @@
 
         </activity>
         <activity android:name=".login_screen"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,8 +22,10 @@
             </intent-filter>
 
         </activity>
+
         <activity android:name=".NewQuestionActivity" />
         <activity android:name=".sign_in_home"></activity>
+
     </application>
 
 </manifest>
