@@ -1,5 +1,6 @@
 package com.example.android.udacityforum;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -21,7 +22,7 @@ public class sign_in_home extends AppCompatActivity {
         home_screen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(sign_in_home.this, ForumActivity.class);
+                Intent i = new Intent(sign_in_home.this, MainActivity.class);
                 startActivity(i);
             }
         });

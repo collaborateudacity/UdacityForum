@@ -60,16 +60,7 @@
                 android:layout_marginRight="@dimen/margin_20"
                 android:background="@color/bright_gold"
                 android:id="@+id/user_panel"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/margin_50"
-                android:layout_marginTop="@dimen/fontSize_20"
-                android:text="@string/question"
-                android:layout_marginLeft="@dimen/margin_20"
-                android:layout_marginRight="@dimen/margin_20"
-                android:background="@color/bright_gold"
-                android:id="@+id/btn_new_que"/>
+            
 
         </LinearLayout>
 
