@@ -33,11 +33,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
-        //To run drawer temp. comment this handler
-
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         drawerLayout = (DrawerLayout) findViewById(R.id.nav_drawer);
         setSupportActionBar(toolbar);
@@ -56,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         actionBar = getSupportActionBar();
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(actionBarView, params);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
